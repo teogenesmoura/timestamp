@@ -26,4 +26,4 @@ app.get('/:date',function(req,res){
 	res.send(obj);
 });
 
-app.listen(3000);
+app.listen(3000 || process.env.PORT);
