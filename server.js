@@ -5,6 +5,12 @@ var moment = require('moment');
 var obj = [];
 var unixTimeStamp = [];
 
+app.set('view engine', 'ejs');
+
+app.get('/', function(req,res){
+	res.render('index');
+});
+
 app.get('/:date',function(req,res){
 	var naturalDate = chrono.parseDate(req.params.date);
 	var isUnixTimeStamp = false;
