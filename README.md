@@ -17,6 +17,7 @@ run :)
 3 - npm start
 ```
 the app should now be running on http://localhost:3000 (or whatever port is on process.env.PORT)
+Also, there is a live instance running at https://teotimestamp.herokuapp.com/
 
 ## Deployment
 
