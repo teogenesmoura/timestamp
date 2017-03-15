@@ -32,4 +32,4 @@ app.get('/:date',function(req,res){
 	res.send(obj);
 });
 
-app.listen(3000 || process.env.PORT);
+app.listen(process.env.PORT || 3000);
